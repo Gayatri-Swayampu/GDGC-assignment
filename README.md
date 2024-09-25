@@ -1,6 +1,7 @@
 # GDGC
 ## E-Commerce Platform
 This is a sample website using Fake Store API</br>
+Tech Stack:HTML,CSS,Bootstrap,Javascript
 Features</br>
 ● Display Items: Utilizes the Fake Store API to fetch and display a variety of products.</br>
 ● Add to Cart: Users can add items to their shopping cart with a simple click.</br>
