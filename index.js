@@ -26,7 +26,7 @@ function displayProducts(products) {
     productDiv.innerHTML = `
       <img src="${product.image}" class="product-card__image" alt="${product.title}">
       <h3 class="product-card__title">${product.title}</h3>
-      <p class="product-card__rating">★ ${product.rating.rate}</p> <!-- No rating sideheading -->
+      <p>Rating: ${product.rating.rate} <i class="fa-solid fa-star" style="color:rgb(247, 247, 85);"></i> </p>
       <p class="product-card__price">₹${product.price}</p>
       <button class="product-card__button" onclick="addToCart(${product.id})">Add to Cart</button>
     `;
